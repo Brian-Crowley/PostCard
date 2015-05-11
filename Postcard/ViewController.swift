@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func senMailButtonPressed(sender: UIButton) {
+
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text
         messageLabel.textColor = UIColor.redColor()
@@ -37,6 +38,8 @@ class ViewController: UIViewController {
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
 
     }
+    
+    //commits test
 
 }
 
